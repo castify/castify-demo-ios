@@ -1,0 +1,26 @@
+{
+  "name": "Castify",
+  "version": "1.0.0-RC.1",
+  "summary": "Castify SDK for iOS.",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (C) Castify, Inc."
+  },
+  "authors": {
+    "shun_fu": "developers@castify-inc.com"
+  },
+  "source": {
+    "git": "git@github.com:castify/castify-sdk-ios-beta.git",
+    "tag": "1.0.0-RC.1"
+  },
+  "homepage": "https://castify.jp/",
+  "vendored_frameworks": "Castify.xcframework",
+  "frameworks": [
+    "AVFoundation",
+    "AudioToolBox",
+    "VideoToolBox"
+  ],
+  "platforms": {
+    "ios": "10.0"
+  }
+}
