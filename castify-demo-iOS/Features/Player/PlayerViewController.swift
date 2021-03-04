@@ -117,6 +117,9 @@ extension PlayerViewController : PlayerDelegate {
     case .timer(let time) where !isSliderDragged:
       playhead = time
       updateTimeIndicator()
+      if duration > 0 {
+        slider.value = Float(time)
+      }
       
     case .connectivityUpdated(.closed(let cause)):
       if let error = cause {
