@@ -1,3 +1,5 @@
+// Copyright © 2021 castify.jp. All rights reserved.
+
 import Foundation
 import Combine
 

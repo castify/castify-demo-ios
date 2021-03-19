@@ -2,21 +2,21 @@ PODS:
   - Castify (1.0.0-RC.1)
 
 DEPENDENCIES:
-  - "Castify (from `git@github.com:castify/castify-sdk-ios-beta.git`, commit `d5145b3289ff62f8b60e851ec03af45b8bdb9dec`)"
+  - "Castify (from `git@github.com:castify/castify-sdk-ios-beta.git`, commit `865d7e21d1a6f6ee3437d34ddf0acbf40181b943`)"
 
 EXTERNAL SOURCES:
   Castify:
-    :commit: d5145b3289ff62f8b60e851ec03af45b8bdb9dec
+    :commit: 865d7e21d1a6f6ee3437d34ddf0acbf40181b943
     :git: "git@github.com:castify/castify-sdk-ios-beta.git"
 
 CHECKOUT OPTIONS:
   Castify:
-    :commit: d5145b3289ff62f8b60e851ec03af45b8bdb9dec
+    :commit: 865d7e21d1a6f6ee3437d34ddf0acbf40181b943
     :git: "git@github.com:castify/castify-sdk-ios-beta.git"
 
 SPEC CHECKSUMS:
   Castify: 7f40d0570cd6124f895805e96904681e97b1fcdd
 
-PODFILE CHECKSUM: 7e35f7549b4bff26c0c00abbf553ecd627d74b2b
+PODFILE CHECKSUM: 4abd2d172c6cf408e1fd4c621d868f7432789bd9
 
 COCOAPODS: 1.10.1

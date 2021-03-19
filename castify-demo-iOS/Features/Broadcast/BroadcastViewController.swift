@@ -1,4 +1,4 @@
-// Copyright © 2019 evaluni.com. All rights reserved.
+// Copyright © 2021 castify.jp. All rights reserved.
 
 import UIKit
 import AVFoundation
