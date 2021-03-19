@@ -6,6 +6,6 @@ target 'castify-demo-iOS' do
   use_frameworks!
 
   # Castify SDK
-  pod 'Castify', :git => 'git@github.com:castify/castify-sdk-ios-beta.git', :commit => 'd5145b3289ff62f8b60e851ec03af45b8bdb9dec'
+  pod 'Castify', :git => 'git@github.com:castify/castify-sdk-ios-beta.git', :commit => '865d7e21d1a6f6ee3437d34ddf0acbf40181b943'
   
 end

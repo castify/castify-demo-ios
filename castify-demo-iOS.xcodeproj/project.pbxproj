@@ -19,6 +19,8 @@
 		24CCA57F229E6EAF007C9E3F /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCA573229E6EAF007C9E3F /* CustomField.swift */; };
 		24CCA582229E6EE2007C9E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCA581229E6EE2007C9E3F /* Assets.xcassets */; };
 		B2269B0425DCCB6D0082CB1C /* CastifyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2269B0325DCCB6D0082CB1C /* CastifyApi.swift */; };
+		B236352F26044BFB0068017A /* NativePlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B236352E26044BFB0068017A /* NativePlayer.storyboard */; };
+		B236353126044C6F0068017A /* NativePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236353026044C6F0068017A /* NativePlayerViewController.swift */; };
 		BFAE2D1557C99E0A8EF2A254 /* Pods_castify_demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E35AC69A77AA8317F2C1687 /* Pods_castify_demo_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		7F0B319649267AA582EE4956 /* Pods-castify-demo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castify-demo-iOS.release.xcconfig"; path = "Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8C6A280FCE07829E515D911C /* Pods-castify-demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castify-demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B2269B0325DCCB6D0082CB1C /* CastifyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastifyApi.swift; sourceTree = "<group>"; };
+		B236352E26044BFB0068017A /* NativePlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NativePlayer.storyboard; sourceTree = "<group>"; };
+		B236353026044C6F0068017A /* NativePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		24CCA563229E6EAE007C9E3F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				B236352D26044BB50068017A /* Player+AVKit */,
 				24CCA564229E6EAE007C9E3F /* Player */,
 				24CCA567229E6EAE007C9E3F /* Home */,
 				24CCA56A229E6EAE007C9E3F /* Broadcast */,
@@ -170,6 +175,15 @@
 				B2269B0325DCCB6D0082CB1C /* CastifyApi.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B236352D26044BB50068017A /* Player+AVKit */ = {
+			isa = PBXGroup;
+			children = (
+				B236352E26044BFB0068017A /* NativePlayer.storyboard */,
+				B236353026044C6F0068017A /* NativePlayerViewController.swift */,
+			);
+			path = "Player+AVKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +257,7 @@
 				24CCA576229E6EAF007C9E3F /* Player.storyboard in Resources */,
 				24CCA577229E6EAF007C9E3F /* Home.storyboard in Resources */,
 				24CCA582229E6EE2007C9E3F /* Assets.xcassets in Resources */,
+				B236352F26044BFB0068017A /* NativePlayer.storyboard in Resources */,
 				24CCA579229E6EAF007C9E3F /* Broadcast.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +315,7 @@
 				24CCA55E229E6E63007C9E3F /* AppDelegate.swift in Sources */,
 				B2269B0425DCCB6D0082CB1C /* CastifyApi.swift in Sources */,
 				24CCA57A229E6EAF007C9E3F /* BroadcastViewController.swift in Sources */,
+				B236353126044C6F0068017A /* NativePlayerViewController.swift in Sources */,
 				24CCA57D229E6EAF007C9E3F /* UIImageView+URL.swift in Sources */,
 				24CCA578229E6EAF007C9E3F /* HomeViewController.swift in Sources */,
 				24CCA57F229E6EAF007C9E3F /* CustomField.swift in Sources */,

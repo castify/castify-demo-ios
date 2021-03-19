@@ -1,4 +1,4 @@
-// Copyright © 2019 evaluni.com. All rights reserved.
+// Copyright © 2021 castify.jp. All rights reserved.
 
 import AVFoundation
 import UIKit
@@ -13,7 +13,7 @@ class PlayerViewController: UIViewController {
   @IBOutlet weak var slider: UISlider!
   @IBOutlet weak var timeIndicator: UILabel!
 
-  var player = Player(castifyApp)
+  var player = Player(castifyApp, config: .init(lowLatency: false))
   var duration: TimeInterval = 0
   var playhead: TimeInterval = 0
   var info: SourceInfo!
