@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Castify",
+        "repositoryURL": "git@github.com:castify/castify-sdk-ios-beta.git",
+        "state": {
+          "branch": null,
+          "revision": "06866fe943486a97bef961bd2f593101001f99ba",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

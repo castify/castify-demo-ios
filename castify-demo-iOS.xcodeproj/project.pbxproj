@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,7 +21,7 @@
 		B2269B0425DCCB6D0082CB1C /* CastifyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2269B0325DCCB6D0082CB1C /* CastifyApi.swift */; };
 		B236352F26044BFB0068017A /* NativePlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B236352E26044BFB0068017A /* NativePlayer.storyboard */; };
 		B236353126044C6F0068017A /* NativePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236353026044C6F0068017A /* NativePlayerViewController.swift */; };
-		BFAE2D1557C99E0A8EF2A254 /* Pods_castify_demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E35AC69A77AA8317F2C1687 /* Pods_castify_demo_iOS.framework */; };
+		B2A27685268466E0004AC845 /* Castify in Frameworks */ = {isa = PBXBuildFile; productRef = B2A27684268466E0004AC845 /* Castify */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,9 +52,6 @@
 		24CCA571229E6EAF007C9E3F /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 		24CCA573229E6EAF007C9E3F /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
 		24CCA581229E6EE2007C9E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E35AC69A77AA8317F2C1687 /* Pods_castify_demo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_castify_demo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F0B319649267AA582EE4956 /* Pods-castify-demo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castify-demo-iOS.release.xcconfig"; path = "Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		8C6A280FCE07829E515D911C /* Pods-castify-demo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castify-demo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B2269B0325DCCB6D0082CB1C /* CastifyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastifyApi.swift; sourceTree = "<group>"; };
 		B236352E26044BFB0068017A /* NativePlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NativePlayer.storyboard; sourceTree = "<group>"; };
 		B236353026044C6F0068017A /* NativePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePlayerViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAE2D1557C99E0A8EF2A254 /* Pods_castify_demo_iOS.framework in Frameworks */,
+				B2A27685268466E0004AC845 /* Castify in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +74,6 @@
 			children = (
 				24CCA549229E6E2B007C9E3F /* castify-demo-iOS */,
 				24CCA548229E6E2B007C9E3F /* Products */,
-				B2269AFB25DCC9510082CB1C /* Frameworks */,
-				641ECCB836BC61088C2C53FB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,23 +147,6 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		641ECCB836BC61088C2C53FB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C6A280FCE07829E515D911C /* Pods-castify-demo-iOS.debug.xcconfig */,
-				7F0B319649267AA582EE4956 /* Pods-castify-demo-iOS.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		B2269AFB25DCC9510082CB1C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2E35AC69A77AA8317F2C1687 /* Pods_castify_demo_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B2269B0225DCCB610082CB1C /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,18 +171,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24CCA559229E6E2B007C9E3F /* Build configuration list for PBXNativeTarget "castify-demo-iOS" */;
 			buildPhases = (
-				380CAC1A3E50A62605A38847 /* [CP] Check Pods Manifest.lock */,
 				24CCA543229E6E2B007C9E3F /* Sources */,
 				24CCA544229E6E2B007C9E3F /* Frameworks */,
 				24CCA545229E6E2B007C9E3F /* Resources */,
 				B2269B0025DCC9590082CB1C /* Embed Frameworks */,
-				392858D76BA77708A3F22A63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "castify-demo-iOS";
+			packageProductDependencies = (
+				B2A27684268466E0004AC845 /* Castify */,
+			);
 			productName = "castify-demo-iOS";
 			productReference = 24CCA547229E6E2B007C9E3F /* castify-demo-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 24CCA53E229E6E2B007C9E3F;
+			packageReferences = (
+				B2A27683268466E0004AC845 /* XCRemoteSwiftPackageReference "castify-sdk-ios-beta" */,
+			);
 			productRefGroup = 24CCA548229E6E2B007C9E3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,48 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		380CAC1A3E50A62605A38847 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-castify-demo-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		392858D76BA77708A3F22A63 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-castify-demo-iOS/Pods-castify-demo-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24CCA543229E6E2B007C9E3F /* Sources */ = {
@@ -456,7 +396,6 @@
 		};
 		24CCA55A229E6E2B007C9E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C6A280FCE07829E515D911C /* Pods-castify-demo-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -477,7 +416,6 @@
 		};
 		24CCA55B229E6E2B007C9E3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F0B319649267AA582EE4956 /* Pods-castify-demo-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -517,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2A27683268466E0004AC845 /* XCRemoteSwiftPackageReference "castify-sdk-ios-beta" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:castify/castify-sdk-ios-beta.git";
+			requirement = {
+				kind = revision;
+				revision = 06866fe943486a97bef961bd2f593101001f99ba;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2A27684268466E0004AC845 /* Castify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A27683268466E0004AC845 /* XCRemoteSwiftPackageReference "castify-sdk-ios-beta" */;
+			productName = Castify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24CCA53F229E6E2B007C9E3F /* Project object */;
 }
